@@ -1,0 +1,6 @@
+----------------------------
+        Test Results        
+----------------------------
+Average Download: 145.31 Mbps
+  Average Upload: 28.85 Mbps
+			

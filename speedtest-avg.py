@@ -58,7 +58,7 @@ def output_results(results):
 	print(f"  Average Upload: {round(uavg, 2)} Mbps\n")
 
 	current_time = datetime.now().strftime("%d-%m-%Y_%H%M%S")
-	file_name= f"{current_time}.txt"
+	file_name= f"logs/{current_time}.txt"
 
 	with open(file_name, "w") as fp:
 		fp.write(f"""----------------------------\n        Test Results        \n----------------------------\nAverage Download: {round(davg, 2)} Mbps\n  Average Upload: {round(uavg, 2)} Mbps
